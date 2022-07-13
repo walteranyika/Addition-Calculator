@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
                 var secondNumber = secondText.toDouble()
 
                 //Add the numbers
-                var sum = firstNumber + secondNumber
+                var sum = firstNumber * secondNumber
 
                 //Display
                 myResult.text = "Sum is $sum"
